@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Parquet Viewer UI</title>
+    <meta content="" name="description" />
+  </head>
+  <body>
+    <div class="bg-white pb-20">
+      <div>
+        <div class="bg-white px-6 pb-6 pt-10 sm:pb-10 sm:pt-16 lg:px-8">
+          <div class="mx-auto max-w-3xl text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Parquet Viewer UI</h2>
+            <p class="text-md mt-3 leading-8 text-gray-600">Starter UI for building viewer interfae for viewing parquet files</p>
+          </div>
+        </div>
+        <div class="mx-auto max-w-2xl bg-white text-center">
+          <div class="mt-0">
+            <div class="mt-5 w-full">
+              <div class="mx-5 text-center sm:mx-auto">
+                <button class="relative block w-full rounded-lg border-2 border-dashed border-gray-400 p-2 text-center hover:border-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-offset-2" type="button">
+                  <div class="hidden min-w-0">
+                    <label class="sr-only" for="file">File Selector</label>
+                    <input id="file" ref="inputFile" accept=".parquet" class="hidden w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900" name="file" type="file" />
+                  </div>
+                  <svg aria-hidden="true" class="mx-auto h-12 w-12 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" vector-effect="non-scaling-stroke" />
+                  </svg>
+                  <h3 class="mt-2 truncate text-sm font-medium text-gray-900">Click Here to Upload your Parquet File</h3>
+                </button>
+                <div class="mt-4 flex justify-end">
+                  <button class="inline-flex items-center rounded-md border border-transparent bg-cyan-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-offset-2" type="button">
+                    View
+                    <ArrowRightIcon aria-hidden="true" class="ml-2 mr-1 h-5 w-5" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center bg-white py-10 align-middle text-base leading-7 text-gray-700">
+      <div class="mx-auto max-w-6xl bg-white text-center text-lg">
+        <h2 class="my-2 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">second description of page</h2>
+        <p>summarized text of page value proposition</p>
+      </div>
+    </div>
+  </body>
+</html>
