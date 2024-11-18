@@ -1,2 +1,2 @@
 # Parquet Viewer Uploader UI
-A simple template for parquet viewer user interface
+A simple template for a parquet viewer user interface
